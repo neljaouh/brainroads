@@ -1,0 +1,83 @@
+[
+  {
+    "id": "introduction_to_biology",
+    "title": "Introduction to Biology I",
+    "subject": "Science",
+    "difficulty": "Beginner",
+    "description": "Fundamental concepts every beginner should know.",
+    "questionsCount": 12
+  },
+  {
+    "id": "introduction_to_biology",
+    "title": "Introduction to Biology II",
+    "subject": "Science",
+    "difficulty": "Beginner",
+    "description": "Fundamental concepts every beginner should know.",
+    "questionsCount": 12
+  },
+  {
+    "id": "advanced_algebra",
+    "title": "Advanced Algebra",
+    "subject": "Mathematics",
+    "difficulty": "Advanced",
+    "description": "Challenge yourself with higher-level math questions.",
+    "questionsCount": 20
+  },
+  {
+    "id": "world_history_essentials",
+    "title": "World History Essentials",
+    "subject": "History",
+    "difficulty": "Intermediate",
+    "description": "Test your knowledge of key historical events.",
+    "questionsCount": 15
+  },
+  {
+    "id": "french_grammar_basics",
+    "title": "French Grammar Basics",
+    "subject": "Languages",
+    "difficulty": "Beginner",
+    "description": "Master the foundations of French grammar.",
+    "questionsCount": 18
+  },
+  {
+    "id": "cybersecurity_fundamentals",
+    "title": "Cybersecurity Fundamentals",
+    "subject": "Technology",
+    "difficulty": "Intermediate",
+    "description": "Learn about digital security threats and protections.",
+    "questionsCount": 22
+  },
+  {
+    "id": "human_anatomy_advanced",
+    "title": "Human Anatomy Advanced",
+    "subject": "Science",
+    "difficulty": "Advanced",
+    "description": "In-depth exploration of human body systems.",
+    "questionsCount": 25
+  },
+  {
+    "id": "physics_motion_forces",
+    "title": "Physics: Motion & Forces",
+    "subject": "Science",
+    "difficulty": "Beginner",
+    "description": "Core principles of Newtonian physics.",
+    "questionsCount": 14
+  },
+  {
+    "id": "modern_world_politics",
+    "title": "Modern World Politics",
+    "subject": "Politics",
+    "difficulty": "Intermediate",
+    "description": "Understand key geopolitical dynamics.",
+    "questionsCount": 17
+  },
+  {
+    "id": "software_engineering_patterns",
+    "title": "Software Engineering Patterns",
+    "subject": "Technology",
+    "difficulty": "Advanced",
+    "description": "Essential design patterns for developers.",
+    "questionsCount": 19
+  }
+]
+

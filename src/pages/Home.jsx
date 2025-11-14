@@ -1,26 +1,29 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 // ===== Questionnaires Listing Page (Dark Mode + Search + Filters + Subjects) =====
 
 export default function QuestionnairesHome() {
-  const allQuestionnaires = [
-    { id: 1, title: "Introduction to Biology", subject: "Science", description: "Fundamental concepts every beginner should know.", questions: 12, difficulty: "Beginner" },
-    { id: 2, title: "Advanced Algebra", subject: "Mathematics", description: "Challenge yourself with higher-level math questions.", questions: 20, difficulty: "Advanced" },
-    { id: 3, title: "World History Essentials", subject: "History", description: "Test your knowledge of key historical events.", questions: 15, difficulty: "Intermediate" },
-    { id: 4, title: "French Grammar Basics", subject: "Languages", description: "Master the foundations of French grammar.", questions: 18, difficulty: "Beginner" },
-    { id: 5, title: "Cybersecurity Fundamentals", subject: "Technology", description: "Learn about digital security threats and protections.", questions: 22, difficulty: "Intermediate" },
-    { id: 6, title: "Human Anatomy Advanced", subject: "Science", description: "In-depth exploration of human body systems.", questions: 25, difficulty: "Advanced" },
-    { id: 7, title: "Physics: Motion & Forces", subject: "Science", description: "Core principles of Newtonian physics.", questions: 14, difficulty: "Beginner" },
-    { id: 8, title: "Modern World Politics", subject: "Politics", description: "Understand key geopolitical dynamics.", questions: 17, difficulty: "Intermediate" },
-    { id: 9, title: "Software Engineering Patterns", subject: "Technology", description: "Essential design patterns for developers.", questions: 19, difficulty: "Advanced" },
-  ];
-
-  const subjects = ["All Subjects", "Science", "Mathematics", "History", "Languages", "Technology", "Politics"];
-
+  const [allQuestionnaires, setAllQuestionnaires] = useState([]);
   const [search, setSearch] = useState("");
   const [filterLevel, setFilterLevel] = useState("All Levels");
   const [filterSubject, setFilterSubject] = useState("All Subjects");
+
+  useEffect(() => {
+    fetch("/questionnaires/index.json")
+      .then((res) => res.json())
+      .then((data) => setAllQuestionnaires(data))
+      .catch((err) => {
+        console.error("Failed to load questionnaires:", err);
+        setAllQuestionnaires([]);
+      });
+  }, []);
+
+  // Get unique subjects from loaded questionnaires
+  const subjects = [
+    "All Subjects",
+    ...Array.from(new Set(allQuestionnaires.map((q) => q.subject))).sort(),
+  ];
 
   const filtered = allQuestionnaires.filter((q) => {
     const matchesSearch = q.title.toLowerCase().includes(search.toLowerCase());
@@ -84,7 +87,7 @@ export default function QuestionnairesHome() {
             <div>
               <h2 className="text-xl font-semibold mb-2 text-white">{q.title}</h2>
               <p className="text-gray-400 text-sm mb-3">{q.description}</p>
-              <div className="text-sm text-gray-500 mb-1">{q.questions} questions</div>
+              <div className="text-sm text-gray-500 mb-1">{q.questionsCount} questions</div>
 
               <div className="flex items-center gap-2 mt-2">
                 <span className="inline-block px-3 py-1 text-xs rounded-full bg-indigo-700/30 text-indigo-300 font-medium">{q.difficulty}</span>
