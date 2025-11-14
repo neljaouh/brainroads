@@ -1,0 +1,32 @@
+{
+  "id": "human_anatomy_advanced",
+  "title": "Human Anatomy Advanced",
+  "subject": "Science",
+  "difficulty": "Advanced",
+  "tags": ["anatomy", "biology", "human body"],
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "How many chambers does the human heart have?",
+      "options": ["2", "3", "4", "5"],
+      "correct": "4",
+      "explanation": "The human heart has four chambers: two atria and two ventricles."
+    },
+    {
+      "id": 2,
+      "type": "truefalse",
+      "question": "The largest organ in the human body is the liver.",
+      "correct": false,
+      "explanation": "The skin is the largest organ in the human body, not the liver."
+    },
+    {
+      "id": 3,
+      "type": "text",
+      "question": "What is the medical term for the windpipe?",
+      "correct": "trachea",
+      "explanation": "The trachea is the tube that connects the larynx to the bronchi of the lungs."
+    }
+  ]
+}
+

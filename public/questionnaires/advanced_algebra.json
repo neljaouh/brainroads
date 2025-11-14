@@ -1,0 +1,32 @@
+{
+  "id": "advanced_algebra",
+  "title": "Advanced Algebra",
+  "subject": "Mathematics",
+  "difficulty": "Advanced",
+  "tags": ["algebra", "equations", "polynomials"],
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "What is the solution to x² - 5x + 6 = 0?",
+      "options": ["x = 2, x = 3", "x = 1, x = 6", "x = -2, x = -3", "x = 0, x = 5"],
+      "correct": "x = 2, x = 3",
+      "explanation": "Factoring gives (x-2)(x-3) = 0, so x = 2 or x = 3."
+    },
+    {
+      "id": 2,
+      "type": "truefalse",
+      "question": "The quadratic formula can solve any quadratic equation.",
+      "correct": true,
+      "explanation": "The quadratic formula x = (-b ± √(b²-4ac)) / 2a works for all quadratic equations."
+    },
+    {
+      "id": 3,
+      "type": "text",
+      "question": "What is the degree of the polynomial 3x⁴ + 2x² - 5?",
+      "correct": "4",
+      "explanation": "The degree of a polynomial is the highest power of the variable, which is 4 in this case."
+    }
+  ]
+}
+

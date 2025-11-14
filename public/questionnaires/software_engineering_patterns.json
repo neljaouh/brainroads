@@ -1,0 +1,33 @@
+{
+  "id": "software_engineering_patterns",
+  "title": "Software Engineering Patterns",
+  "subject": "Technology",
+  "difficulty": "Advanced",
+  "tags": ["programming", "design patterns", "software"],
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Which design pattern ensures only one instance of a class exists?",
+      "options": ["Factory", "Singleton", "Observer", "Strategy"],
+      "correct": "Singleton",
+      "explanation": "The Singleton pattern restricts instantiation to a single object instance."
+    },
+    {
+      "id": 2,
+      "type": "truefalse",
+      "question": "The Observer pattern is used for one-to-many dependency between objects.",
+      "correct": true,
+      "explanation": "The Observer pattern allows multiple observers to be notified of state changes in a subject."
+    },
+    {
+      "id": 3,
+      "type": "dropdown",
+      "question": "MVC stands for Model-View-___",
+      "options": ["Controller", "Component", "Container", "Class"],
+      "correct": "Controller",
+      "explanation": "MVC (Model-View-Controller) is an architectural pattern separating data, presentation, and control logic."
+    }
+  ]
+}
+

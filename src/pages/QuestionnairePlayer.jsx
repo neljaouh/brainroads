@@ -1,46 +1,47 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useNavigate, useParams, Link } from "react-router-dom";
+
+// Custom hook to load questionnaire data
+function useQuestionnaire(id) {
+  const [data, setData] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    if (!id) {
+      setLoading(false);
+      return;
+    }
+
+    setLoading(true);
+    fetch(`/questionnaires/${id}.json`)
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error("Failed to load questionnaire");
+        }
+        return res.json();
+      })
+      .then((data) => {
+        setData(data);
+        setLoading(false);
+      })
+      .catch((err) => {
+        console.error("Error loading questionnaire:", err);
+        setLoading(false);
+      });
+  }, [id]);
+
+  return { data, loading };
+}
 
 // BrainRoads – Questionnaire Player with Revision Mode, Explanations & Results
 
 export default function QuestionnairePlayer() {
   const { id } = useParams();
   const navigate = useNavigate();
+  const { data: questionnaire, loading } = useQuestionnaire(id);
 
-  const questions = [
-    {
-      id: 1,
-      type: "mcq",
-      question: "Which planet is known as the Red Planet?",
-      options: ["Earth", "Mars", "Venus", "Jupiter"],
-      correct: "Mars",
-      explanation: "Mars appears red because of iron oxide (rust) on its surface.",
-    },
-    {
-      id: 2,
-      type: "dropdown",
-      question: "The capital of France is ___",
-      options: ["Paris", "Lyon", "Marseille", "Nice"],
-      correct: "Paris",
-      explanation: "Paris has been France's capital since the 10th century.",
-    },
-    {
-      id: 3,
-      type: "truefalse",
-      question: "Light travels faster than sound.",
-      correct: true,
-      explanation: "Light travels at ~300,000 km/s, far faster than sound's ~343 m/s.",
-    },
-    {
-      id: 4,
-      type: "text",
-      question: "Name the process by which plants make their own food.",
-      correct: "photosynthesis",
-      explanation:
-        "Photosynthesis uses sunlight to convert carbon dioxide and water into glucose and oxygen.",
-    },
-  ];
+  const questions = questionnaire?.questions || [];
 
   const [index, setIndex] = useState(0);
   const [answer, setAnswer] = useState("");
@@ -150,6 +151,27 @@ export default function QuestionnairePlayer() {
     }
   };
 
+  // Show loading state
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-gray-900 text-gray-100 p-8 flex flex-col items-center justify-center">
+        <div className="text-xl">Loading...</div>
+      </div>
+    );
+  }
+
+  // Show error state if questionnaire not found
+  if (!questionnaire) {
+    return (
+      <div className="min-h-screen bg-gray-900 text-gray-100 p-8 flex flex-col items-center justify-center">
+        <div className="text-xl mb-4">Questionnaire not found</div>
+        <Link to="/" className="px-4 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-700">
+          Back to Home
+        </Link>
+      </div>
+    );
+  }
+
   return (
     <div className="min-h-screen bg-gray-900 text-gray-100 p-8 flex flex-col items-center">
       {/* Header */}
@@ -180,9 +202,9 @@ export default function QuestionnairePlayer() {
         </header>
 
         <div className="mb-10">
-          <div className="text-sm text-indigo-300 font-medium mb-1">Science</div>
+          <div className="text-sm text-indigo-300 font-medium mb-1">{questionnaire.subject}</div>
           <div className="text-3xl font-semibold text-white">
-            Sample Questionnaire Title
+            {questionnaire.title}
           </div>
           {isRevision && (
             <div className="mt-2 text-sm text-green-300">

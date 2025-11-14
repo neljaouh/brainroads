@@ -1,0 +1,33 @@
+{
+  "id": "world_history_essentials",
+  "title": "World History Essentials",
+  "subject": "History",
+  "difficulty": "Intermediate",
+  "tags": ["history", "world", "events"],
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "In which year did World War I begin?",
+      "options": ["1912", "1914", "1916", "1918"],
+      "correct": "1914",
+      "explanation": "World War I began in 1914 after the assassination of Archduke Franz Ferdinand."
+    },
+    {
+      "id": 2,
+      "type": "dropdown",
+      "question": "The fall of the Berlin Wall occurred in ___",
+      "options": ["1987", "1989", "1991", "1993"],
+      "correct": "1989",
+      "explanation": "The Berlin Wall fell on November 9, 1989, symbolizing the end of the Cold War."
+    },
+    {
+      "id": 3,
+      "type": "truefalse",
+      "question": "The Renaissance began in Italy.",
+      "correct": true,
+      "explanation": "The Renaissance started in Italy in the 14th century and spread throughout Europe."
+    }
+  ]
+}
+

@@ -1,0 +1,48 @@
+{
+  "id": "introduction_to_biology",
+  "title": "Introduction to Biology II",
+  "subject": "Science",
+  "difficulty": "Beginner",
+  "tags": ["biology", "cells", "basics"],
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "What is the basic unit of life?",
+      "options": ["Atom", "Cell", "Molecule", "Organ"],
+      "correct": "Cell",
+      "explanation": "The cell is the basic structural and functional unit of all living organisms."
+    },
+    {
+      "id": 2,
+      "type": "mcq",
+      "question": "Which organelle is known as the powerhouse of the cell?",
+      "options": ["Nucleus", "Mitochondria", "Ribosome", "Golgi apparatus"],
+      "correct": "Mitochondria",
+      "explanation": "Mitochondria produce ATP, the energy currency of the cell."
+    },
+    {
+      "id": 3,
+      "type": "truefalse",
+      "question": "All living things are made of cells.",
+      "correct": true,
+      "explanation": "This is one of the fundamental principles of cell theory."
+    },
+    {
+      "id": 4,
+      "type": "dropdown",
+      "question": "The process by which plants make food is called ___",
+      "options": ["Respiration", "Photosynthesis", "Digestion", "Transpiration"],
+      "correct": "Photosynthesis",
+      "explanation": "Photosynthesis converts light energy into chemical energy stored in glucose."
+    },
+    {
+      "id": 5,
+      "type": "text",
+      "question": "What is the genetic material found in the nucleus of cells?",
+      "correct": "DNA",
+      "explanation": "DNA (Deoxyribonucleic acid) contains the genetic instructions for all living organisms."
+    }
+  ]
+}
+

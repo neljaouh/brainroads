@@ -1,0 +1,32 @@
+{
+  "id": "french_grammar_basics",
+  "title": "French Grammar Basics",
+  "subject": "Languages",
+  "difficulty": "Beginner",
+  "tags": ["french", "grammar", "language"],
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "What is the French word for 'hello'?",
+      "options": ["Bonjour", "Au revoir", "Merci", "S'il vous plaît"],
+      "correct": "Bonjour",
+      "explanation": "Bonjour is the standard greeting in French, meaning 'good day' or 'hello'."
+    },
+    {
+      "id": 2,
+      "type": "truefalse",
+      "question": "In French, all nouns have a gender (masculine or feminine).",
+      "correct": true,
+      "explanation": "Every French noun is either masculine or feminine, which affects articles and adjectives."
+    },
+    {
+      "id": 3,
+      "type": "text",
+      "question": "How do you say 'thank you' in French?",
+      "correct": "merci",
+      "explanation": "Merci is the French word for 'thank you'."
+    }
+  ]
+}
+

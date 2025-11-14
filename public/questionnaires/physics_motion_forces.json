@@ -1,0 +1,33 @@
+{
+  "id": "physics_motion_forces",
+  "title": "Physics: Motion & Forces",
+  "subject": "Science",
+  "difficulty": "Beginner",
+  "tags": ["physics", "motion", "forces"],
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "What is the SI unit of force?",
+      "options": ["Joule", "Newton", "Watt", "Pascal"],
+      "correct": "Newton",
+      "explanation": "The Newton (N) is the SI unit of force, named after Isaac Newton."
+    },
+    {
+      "id": 2,
+      "type": "truefalse",
+      "question": "An object at rest will remain at rest unless acted upon by an external force.",
+      "correct": true,
+      "explanation": "This is Newton's First Law of Motion, also known as the law of inertia."
+    },
+    {
+      "id": 3,
+      "type": "dropdown",
+      "question": "The formula F = ma represents Newton's ___ Law",
+      "options": ["First", "Second", "Third", "Fourth"],
+      "correct": "Second",
+      "explanation": "F = ma is Newton's Second Law, stating that force equals mass times acceleration."
+    }
+  ]
+}
+
