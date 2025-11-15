@@ -155,7 +155,7 @@ export default function QuestionnairePlayer() {
   if (loading) {
     return (
       <div className="min-h-screen bg-gray-900 text-gray-100 p-8 flex flex-col items-center justify-center">
-        <div className="text-xl">Loading...</div>
+        <div className="text-lg">Loading...</div>
       </div>
     );
   }
@@ -164,7 +164,7 @@ export default function QuestionnairePlayer() {
   if (!questionnaire) {
     return (
       <div className="min-h-screen bg-gray-900 text-gray-100 p-8 flex flex-col items-center justify-center">
-        <div className="text-xl mb-4">Questionnaire not found</div>
+        <div className="text-lg mb-4">Questionnaire not found</div>
         <Link to="/" className="px-4 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-700">
           Back to Home
         </Link>
@@ -177,33 +177,20 @@ export default function QuestionnairePlayer() {
       {/* Header */}
       <div className="w-full max-w-4xl mb-10">
         <header className="flex items-center justify-between mb-6">
-          <div className="text-2xl font-bold tracking-tight">BrainRoads</div>
-          <nav className="space-x-6 text-lg text-gray-300 flex items-center">
+          <div className="text-xl font-bold tracking-tight">BrainRoads</div>
+          <nav className="space-x-6 text-base text-gray-300 flex items-center">
             <Link to="/" className="hover:text-white transition">
               Home
             </Link>
             <a href="#" className="hover:text-white transition">
               My Progress
             </a>
-
-            {/* Revision Mode Toggle */}
-            <button
-              type="button"
-              onClick={() => setIsRevision((prev) => !prev)}
-              className={`ml-6 px-3 py-1 rounded-xl text-sm border transition ${
-                isRevision
-                  ? "bg-green-600 border-green-500 text-white"
-                  : "bg-gray-700 border-gray-600 text-gray-100"
-              }`}
-            >
-              {isRevision ? "Revision Mode On" : "Revision Mode Off"}
-            </button>
           </nav>
         </header>
 
         <div className="mb-10">
-          <div className="text-sm text-indigo-300 font-medium mb-1">{questionnaire.subject}</div>
-          <div className="text-3xl font-semibold text-white">
+          <div className="text-xs text-indigo-300 font-medium mb-1">{questionnaire.subject}</div>
+          <div className="text-2xl font-semibold text-white">
             {questionnaire.title}
           </div>
           {isRevision && (
@@ -214,6 +201,21 @@ export default function QuestionnairePlayer() {
         </div>
       </div>
 
+      {/* Revision Mode Toggle */}
+      <div className="w-full max-w-3xl mb-6 flex justify-end">
+        <button
+          type="button"
+          onClick={() => setIsRevision((prev) => !prev)}
+          className={`px-4 py-2 rounded-xl text-sm border transition ${
+            isRevision
+              ? "bg-green-600 border-green-500 text-white"
+              : "bg-gray-700 border-gray-600 text-gray-100"
+          }`}
+        >
+          {isRevision ? "Revision Mode On" : "Revision Mode Off"}
+        </button>
+      </div>
+
       {/* Results Screen */}
       {finished ? (
         <motion.div
@@ -221,14 +223,14 @@ export default function QuestionnairePlayer() {
           animate={{ opacity: 1, y: 0 }}
           className="w-full max-w-3xl bg-gray-800 p-8 rounded-2xl shadow-lg border border-gray-700"
         >
-          <h2 className="text-3xl font-semibold mb-6 text-white">Results</h2>
+          <h2 className="text-2xl font-semibold mb-6 text-white">Results</h2>
           <p className="text-gray-300 mb-6">
             You scored {results.filter((r) => r.correct).length} / {questions.length}
           </p>
 
           {/* List of Wrong Questions */}
           <div className="mb-6 p-4 bg-red-900/20 border border-red-500/50 rounded-xl">
-            <h3 className="text-lg font-semibold text-red-300 mb-3">
+            <h3 className="text-base font-semibold text-red-300 mb-3">
               Questions answered incorrectly ({results.filter((r) => !r.correct).length}):
             </h3>
             {results.filter((r) => !r.correct).length > 0 ? (
@@ -261,7 +263,7 @@ export default function QuestionnairePlayer() {
                     <span className="text-sm font-medium text-gray-100 flex-1">
                       {r.question}
                     </span>
-                    <span className={`ml-4 text-lg ${r.correct ? "text-green-400" : "text-red-400"}`}>
+                    <span className={`ml-4 text-base ${r.correct ? "text-green-400" : "text-red-400"}`}>
                       {r.correct ? "✔" : "✘"}
                     </span>
                   </div>
@@ -341,7 +343,7 @@ export default function QuestionnairePlayer() {
                 transition={{ duration: 0.25 }}
                 className="w-full max-w-3xl bg-gray-800 p-8 rounded-2xl shadow-lg border border-gray-700"
               >
-                <h2 className="text-2xl font-semibold mb-6 text-white">
+                <h2 className="text-xl font-semibold mb-6 text-white">
                   {q.question}
                 </h2>
 
@@ -435,7 +437,7 @@ export default function QuestionnairePlayer() {
                 {/* Feedback */}
                 {feedback && (
                   <div
-                    className={`mt-4 text-lg font-semibold ${
+                    className={`mt-4 text-base font-semibold ${
                       feedback === "Correct!" ? "text-green-400" : "text-red-400"
                     }`}
                   >

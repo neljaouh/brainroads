@@ -36,8 +36,8 @@ export default function QuestionnairesHome() {
     <div className="min-h-screen bg-gray-900 text-gray-100 p-6">
       {/* Header */}
       <header className="flex items-center justify-between mb-10">
-        <div className="text-2xl font-bold tracking-tight">BrainRoads</div>
-        <nav className="space-x-6 text-lg text-gray-300">
+        <div className="text-xl font-bold tracking-tight">BrainRoads</div>
+        <nav className="space-x-6 text-base text-gray-300">
           <Link to="/" className="hover:text-white transition">Home</Link>
           <a href="#" className="hover:text-white transition">My Progress</a>
         </nav>
@@ -85,9 +85,9 @@ export default function QuestionnairesHome() {
             className="bg-gray-800 p-6 rounded-2xl shadow hover:shadow-lg transition border border-gray-700 flex flex-col justify-between"
           >
             <div>
-              <h2 className="text-xl font-semibold mb-2 text-white">{q.title}</h2>
-              <p className="text-gray-400 text-sm mb-3">{q.description}</p>
-              <div className="text-sm text-gray-500 mb-1">{q.questionsCount} questions</div>
+              <h2 className="text-lg font-semibold mb-2 text-white">{q.title}</h2>
+              <p className="text-gray-400 text-xs mb-3">{q.description}</p>
+              <div className="text-xs text-gray-500 mb-1">{q.questionsCount} questions</div>
 
               <div className="flex items-center gap-2 mt-2">
                 <span className="inline-block px-3 py-1 text-xs rounded-full bg-indigo-700/30 text-indigo-300 font-medium">{q.difficulty}</span>
