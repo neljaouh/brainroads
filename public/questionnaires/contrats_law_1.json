@@ -1,0 +1,392 @@
+{
+    "id": "questionnaire-droit-contrats-mba-assas",
+    "title": "Droit des contrats",
+    "subject": "Droit",
+    "difficulty": "Intermediate",
+    "tags": ["droit des contrats", "négociation", "validité", "interprétation", "inexécution", "fin du contrat"],
+    "questions": [
+      {
+        "id": 1,
+        "type": "truefalse",
+        "question": "La liberté de négocier inclut la liberté de rompre les pourparlers.",
+        "correct": true,
+        "explanation": "Selon l'article 1112 du Code civil, l’initiative, le déroulement et la rupture des négociations sont libres, sous réserve de la bonne foi."
+      },
+      {
+        "id": 2,
+        "type": "mcq",
+        "question": "Quel texte définit la liberté de contracter ?",
+        "options": ["Art. 1102 C. civ.", "Art. 1118 C. civ.", "Art. 1192 C. civ.", "Art. 1140 C. civ."],
+        "correct": "Art. 1102 C. civ.",
+        "explanation": "L'article 1102 énonce que chacun est libre de contracter ou non."
+      },
+      {
+        "id": 3,
+        "type": "mcq",
+        "question": "La rupture fautive des pourparlers engage :",
+        "options": ["La responsabilité contractuelle", "La responsabilité délictuelle", "Aucune responsabilité", "Une sanction pénale"],
+        "correct": "La responsabilité délictuelle",
+        "explanation": "La rupture abusive engage la responsabilité extracontractuelle."
+      },
+      {
+        "id": 4,
+        "type": "truefalse",
+        "question": "L'existence même des négociations est toujours confidentielle par la loi.",
+        "correct": false,
+        "explanation": "La loi ne protège pas la confidentialité de l’existence des négociations."
+      },
+      {
+        "id": 5,
+        "type": "mcq",
+        "question": "Le devoir précontractuel d'information porte sur :",
+        "options": ["Toutes les informations", "La valeur de la prestation", "Les informations déterminantes pour le consentement", "Les motifs personnels des parties"],
+        "correct": "Les informations déterminantes pour le consentement",
+        "explanation": "L'article 1112-1 vise les informations déterminantes ayant un lien direct avec le contrat."
+      },
+  
+      {
+        "id": 6,
+        "type": "truefalse",
+        "question": "L’erreur sur la valeur peut entraîner la nullité du contrat.",
+        "correct": false,
+        "explanation": "L’article 1136 exclut l’erreur sur la valeur comme cause de nullité."
+      },
+      {
+        "id": 7,
+        "type": "mcq",
+        "question": "Le dol peut résulter :",
+        "options": ["D’un mensonge", "D’un silence intentionnel", "D’une estimation erronée de la valeur", "Des réponses A et B"],
+        "correct": "Des réponses A et B",
+        "explanation": "Le dol résulte de manœuvres, mensonges ou dissimulation intentionnelle."
+      },
+      {
+        "id": 8,
+        "type": "truefalse",
+        "question": "L'erreur provoquée par un dol est toujours excusable.",
+        "correct": true,
+        "explanation": "L’article 1139 précise que l’erreur due au dol est toujours excusable."
+      },
+      {
+        "id": 9,
+        "type": "mcq",
+        "question": "La violence économique correspond :",
+        "options": ["À une menace physique", "À un abus d’état de dépendance", "À un simple déséquilibre contractuel", "À une erreur sur la personne"],
+        "correct": "À un abus d’état de dépendance",
+        "explanation": "L’article 1143 consacre la violence par abus d’état de dépendance."
+      },
+      {
+        "id": 10,
+        "type": "truefalse",
+        "question": "Le juge peut requalifier un contrat indépendamment de sa dénomination par les parties.",
+        "correct": true,
+        "explanation": "L’article 12 impose au juge de restituer aux actes leur exacte qualification."
+      },
+  
+      {
+        "id": 11,
+        "type": "mcq",
+        "question": "Un contrat d’adhésion est :",
+        "options": ["Un contrat librement négocié", "Un contrat dont les clauses sont imposées par une partie", "Un contrat signé oralement", "Un contrat conclu sans prix"],
+        "correct": "Un contrat dont les clauses sont imposées par une partie",
+        "explanation": "Selon l’art. 1110, il comporte des clauses non négociables."
+      },
+      {
+        "id": 12,
+        "type": "truefalse",
+        "question": "Les clauses claires peuvent être interprétées par le juge.",
+        "correct": false,
+        "explanation": "L’article 1192 interdit d’interpréter des clauses claires."
+      },
+      {
+        "id": 13,
+        "type": "mcq",
+        "question": "Quelle directive d’interprétation privilégie l’effet utile ?",
+        "options": ["Art. 1188", "Art. 1189", "Art. 1191", "Art. 1190"],
+        "correct": "Art. 1191",
+        "explanation": "L’article 1191 indique que doit être retenu le sens donnant effet à la clause."
+      },
+      {
+        "id": 14,
+        "type": "truefalse",
+        "question": "Une clause de priorité organise la hiérarchie entre documents contractuels.",
+        "correct": true,
+        "explanation": "Elle clarifie quel document prévaut en cas de contradiction."
+      },
+      {
+        "id": 15,
+        "type": "mcq",
+        "question": "La clause d’intégralité a pour effet :",
+        "options": ["D'interdire toute preuve", "D’empêcher qu’un élément extérieur au contrat soit invoqué", "D’exclure la mauvaise foi", "D’annuler les négociations"],
+        "correct": "D’empêcher qu’un élément extérieur au contrat soit invoqué",
+        "explanation": "Elle affirme que tout l’accord figure dans le contrat écrit."
+      },
+  
+      {
+        "id": 16,
+        "type": "truefalse",
+        "question": "L’exception d’inexécution est une sanction unilatérale.",
+        "correct": true,
+        "explanation": "Les articles 1219 et 1220 autorisent la suspension unilatérale."
+      },
+      {
+        "id": 17,
+        "type": "mcq",
+        "question": "La résolution unilatérale par notification requiert :",
+        "options": ["Aucune formalité", "Une mise en demeure préalable sauf urgence", "Un accord du débiteur", "Une décision judiciaire"],
+        "correct": "Une mise en demeure préalable sauf urgence",
+        "explanation": "Art. 1226 prévoit une mise en demeure préalable sauf exceptions."
+      },
+      {
+        "id": 18,
+        "type": "truefalse",
+        "question": "Une clause résolutoire nécessite une mise en demeure sauf clause contraire.",
+        "correct": true,
+        "explanation": "Art. 1225 : la mise en demeure est la règle par défaut."
+      },
+      {
+        "id": 19,
+        "type": "mcq",
+        "question": "La responsabilité contractuelle suppose :",
+        "options": ["Une faute volontaire", "Une inexécution ou un retard", "Une mauvaise foi", "Une absence de prévisibilité"],
+        "correct": "Une inexécution ou un retard",
+        "explanation": "Art. 1231-1 : elle repose sur l’inexécution."
+      },
+      {
+        "id": 20,
+        "type": "truefalse",
+        "question": "La clause pénale peut être révisée par le juge.",
+        "correct": true,
+        "explanation": "Art. 1231-5 : le juge peut augmenter ou diminuer une pénalité excessive."
+      },
+  
+      {
+        "id": 21,
+        "type": "truefalse",
+        "question": "La force majeure doit être imprévisible, irrésistible et extérieure.",
+        "correct": true,
+        "explanation": "Selon l'art. 1218 et la jurisprudence."
+      },
+      {
+        "id": 22,
+        "type": "mcq",
+        "question": "La force majeure entraîne :",
+        "options": ["Toujours des dommages-intérêts", "La suspension ou la résolution selon le cas", "L’augmentation du prix", "Une renégociation obligatoire"],
+        "correct": "La suspension ou la résolution selon le cas",
+        "explanation": "Selon que l’empêchement est temporaire ou définitif."
+      },
+      {
+        "id": 23,
+        "type": "truefalse",
+        "question": "Les parties peuvent aménager contractuellement la définition de la force majeure.",
+        "correct": true,
+        "explanation": "Les clauses de force majeure sont libres."
+      },
+      {
+        "id": 24,
+        "type": "mcq",
+        "question": "L’imprévision suppose :",
+        "options": ["Un événement imprévisible rendant l’exécution impossible", "Un changement imprévisible rendant l’exécution excessivement onéreuse", "Un dol", "Une mauvaise foi du débiteur"],
+        "correct": "Un changement imprévisible rendant l’exécution excessivement onéreuse",
+        "explanation": "Selon l’article 1195."
+      },
+      {
+        "id": 25,
+        "type": "truefalse",
+        "question": "En cas d’imprévision, la renégociation est obligatoire pour les deux parties.",
+        "correct": false,
+        "explanation": "Seule la partie invoquant l’imprévision doit demander une renégociation."
+      },
+  
+      {
+        "id": 26,
+        "type": "mcq",
+        "question": "La prorogation d’un contrat :",
+        "options": ["Crée un nouveau contrat", "Prolonge le contrat existant", "Met fin au contrat", "Nécessite une décision judiciaire"],
+        "correct": "Prolonge le contrat existant",
+        "explanation": "La prorogation ne crée pas un nouveau contrat."
+      },
+      {
+        "id": 27,
+        "type": "truefalse",
+        "question": "Le renouvellement crée un nouveau contrat.",
+        "correct": true,
+        "explanation": "Art. 1214 définit le renouvellement comme créant un contrat nouveau."
+      },
+      {
+        "id": 28,
+        "type": "mcq",
+        "question": "La tacite reconduction produit :",
+        "options": ["Un nouveau contrat à durée indéterminée", "La prorogation du précédent contrat", "L’extinction du contrat", "Une obligation de renégociation"],
+        "correct": "Un nouveau contrat à durée indéterminée",
+        "explanation": "Art. 1215 : effets alignés sur le renouvellement."
+      },
+      {
+        "id": 29,
+        "type": "truefalse",
+        "question": "Un contrat à durée indéterminée peut être résilié à tout moment.",
+        "correct": true,
+        "explanation": "Art. 1211 prévoit une résiliation avec préavis."
+      },
+      {
+        "id": 30,
+        "type": "mcq",
+        "question": "La rupture brutale de relations commerciales établies relève :",
+        "options": ["Du droit civil", "Du droit pénal", "Du droit commercial (art. L. 442-1)", "Du droit administratif"],
+        "correct": "Du droit commercial (art. L. 442-1)",
+        "explanation": "Elle sanctionne l'absence de préavis suffisant."
+      },
+  
+      {
+        "id": 31,
+        "type": "truefalse",
+        "question": "L’offre doit contenir les éléments essentiels du contrat.",
+        "correct": true,
+        "explanation": "Art. 1114 : une offre doit être ferme et précise."
+      },
+      {
+        "id": 32,
+        "type": "mcq",
+        "question": "L’acceptation non conforme constitue :",
+        "options": ["Une simple erreur", "Une nullité", "Une nouvelle offre", "Une violence"],
+        "correct": "Une nouvelle offre",
+        "explanation": "Art. 1118 al. 3."
+      },
+      {
+        "id": 33,
+        "type": "text",
+        "question": "Définissez la lettre d’intention (LOI) en droit des affaires.",
+        "correct": "Document exprimant une intention d'entrer en négociation et pouvant prévoir exclusivité, confidentialité et modalités préparatoires.",
+        "explanation": "La LOI n’engage pas à conclure sauf clauses spécifiques."
+      },
+      {
+        "id": 34,
+        "type": "truefalse",
+        "question": "Le devoir d’information est d’ordre public.",
+        "correct": true,
+        "explanation": "L’art. 1112-1 indique qu’il ne peut être exclu."
+      },
+      {
+        "id": 35,
+        "type": "mcq",
+        "question": "Parmi les vices du consentement, lequel implique nécessairement une intention ?",
+        "options": ["Erreur", "Dol", "Violence physique uniquement", "Défaut de prix"],
+        "correct": "Dol",
+        "explanation": "Le dol implique une intention de tromper."
+      },
+  
+      {
+        "id": 36,
+        "type": "text",
+        "question": "Qu’est-ce qu’une clause pénale ?",
+        "correct": "Une clause fixant forfaitairement à l’avance le montant des dommages-intérêts dus en cas d’inexécution.",
+        "explanation": "Art. 1231-5 encadre sa révision judiciaire."
+      },
+      {
+        "id": 37,
+        "type": "truefalse",
+        "question": "La force majeure peut être invoquée par le créancier si définie contractuellement.",
+        "correct": true,
+        "explanation": "Les clauses peuvent étendre la force majeure au créancier."
+      },
+      {
+        "id": 38,
+        "type": "mcq",
+        "question": "L’imprévision peut être exclue :",
+        "options": ["Jamais", "Uniquement dans les contrats de consommation", "Par une clause contractuelle", "Par une lettre d’intention"],
+        "correct": "Par une clause contractuelle",
+        "explanation": "Le régime de l’art. 1195 est supplétif."
+      },
+      {
+        "id": 39,
+        "type": "truefalse",
+        "question": "Un engagement perpétuel est interdit.",
+        "correct": true,
+        "explanation": "Art. 1210 interdit les engagements perpétuels."
+      },
+      {
+        "id": 40,
+        "type": "mcq",
+        "question": "La résiliation pour convenance est :",
+        "options": ["Une obligation légale", "Possible uniquement si prévue au contrat", "Toujours interdite", "Une sanction judiciaire"],
+        "correct": "Possible uniquement si prévue au contrat",
+        "explanation": "Elle ne peut exister sans clause."
+      },
+  
+      {
+        "id": 41,
+        "type": "truefalse",
+        "question": "La responsabilité contractuelle peut être cumulée avec d’autres sanctions.",
+        "correct": true,
+        "explanation": "Selon l’article 1217 al. 7."
+      },
+      {
+        "id": 42,
+        "type": "mcq",
+        "question": "La mise en demeure :",
+        "options": ["Est toujours obligatoire", "N’est jamais obligatoire", "Est en principe obligatoire pour demander des dommages-intérêts", "Doit être faite par un juge"],
+        "correct": "Est en principe obligatoire pour demander des dommages-intérêts",
+        "explanation": "Art. 1231 impose la mise en demeure sauf exceptions."
+      },
+      {
+        "id": 43,
+        "type": "truefalse",
+        "question": "Un courriel sans signature électronique constitue une preuve parfaite du contrat.",
+        "correct": false,
+        "explanation": "Les courriels doivent être complétés par d’autres éléments de preuve."
+      },
+      {
+        "id": 44,
+        "type": "text",
+        "question": "Qu’est-ce qu’une clause MAC (Material Adverse Change) ?",
+        "correct": "Une clause permettant de renégocier ou résilier un contrat si survient un changement significativement défavorable.",
+        "explanation": "Elle est souvent utilisée pour gérer les risques d’imprévision."
+      },
+      {
+        "id": 45,
+        "type": "mcq",
+        "question": "Dans une clause d’arbitrage amiable, quel risque existe-t-il en cas de rédaction ambiguë ?",
+        "options": ["Inexistence du contrat", "Nullité de la clause", "Requalification en simple conciliation", "Résolution judiciaire automatique"],
+        "correct": "Requalification en simple conciliation",
+        "explanation": "Une rédaction imprécise peut conduire le juge à requalifier."
+      },
+  
+      {
+        "id": 46,
+        "type": "truefalse",
+        "question": "Le juge peut adapter un contrat en cas d'imprévision seulement si les deux parties le demandent.",
+        "correct": false,
+        "explanation": "Si échec de la renégociation et absence d’accord, le juge peut réviser ou résilier à la demande d’une seule partie."
+      },
+      {
+        "id": 47,
+        "type": "mcq",
+        "question": "La tacite reconduction légale intervient :",
+        "options": ["Même si les parties cessent d’exécuter leurs obligations", "Si les parties continuent d’exécuter le contrat après son terme", "Uniquement sur notification écrite", "Uniquement si prévue dans le contrat"],
+        "correct": "Si les parties continuent d’exécuter le contrat après son terme",
+        "explanation": "Art. 1215 : exécution continue = reconduction tacite."
+      },
+      {
+        "id": 48,
+        "type": "truefalse",
+        "question": "La capacité juridique d’une personne morale se prouve par son immatriculation au RCS.",
+        "correct": true,
+        "explanation": "L’immatriculation conditionne la capacité des sociétés."
+      },
+      {
+        "id": 49,
+        "type": "mcq",
+        "question": "L’exécution forcée en nature unilatérale nécessite :",
+        "options": ["Une décision de justice préalable", "Une mise en demeure préalable", "Un accord des deux parties", "Un délai de 6 mois"],
+        "correct": "Une mise en demeure préalable",
+        "explanation": "Art. 1222 l’exige avant l’exécution par remplacement."
+      },
+      {
+        "id": 50,
+        "type": "text",
+        "question": "Expliquez la différence entre renouvellement et prorogation.",
+        "correct": "La prorogation prolonge le contrat existant ; le renouvellement crée un nouveau contrat, en général à durée indéterminée.",
+        "explanation": "Art. 1213 et 1214 distinguent ces mécanismes."
+      }
+    ]
+  }
+  

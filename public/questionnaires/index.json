@@ -78,6 +78,22 @@
     "difficulty": "Advanced",
     "description": "Essential design patterns for developers.",
     "questionsCount": 19
+  },
+  {
+    "id": "contrats_law_1",
+    "title": "Droit des contrats",
+    "subject": "Droit",
+    "difficulty": "Intermediate",
+    "description": "Comprehensive questionnaire covering contract law including negotiation, validity, interpretation, non-performance, and contract termination.",
+    "questionsCount": 50
+  },
+  {
+    "id": "contracts_law_2",
+    "title": "Droit des contrats",
+    "subject": "Droit",
+    "difficulty": "Beginner",
+    "description": "Fundamental concepts of contract law for beginners, covering basic principles, formation, and essential legal foundations.",
+    "questionsCount": 50
   }
 ]
 

@@ -1,0 +1,393 @@
+{
+    "id": "questionnaire-droit-contrats-beginner-2",
+    "title": "Droit des contrats",
+    "subject": "Droit",
+    "difficulty": "Beginner",
+    "tags": ["droit des contrats", "débutant", "bases juridiques"],
+    "questions": [
+      {
+        "id": 1,
+        "type": "truefalse",
+        "question": "Un contrat est un accord de volontés entre plusieurs personnes.",
+        "correct": true,
+        "explanation": "L'article 1101 définit le contrat comme un accord de volontés."
+      },
+      {
+        "id": 2,
+        "type": "mcq",
+        "question": "Le droit des contrats appartient principalement :",
+        "options": ["Au droit civil", "Au droit pénal", "Au droit fiscal", "Au droit constitutionnel"],
+        "correct": "Au droit civil",
+        "explanation": "La théorie générale du contrat appartient au droit civil."
+      },
+      {
+        "id": 3,
+        "type": "truefalse",
+        "question": "Les parties sont libres de contracter ou non.",
+        "correct": true,
+        "explanation": "C'est le principe de liberté contractuelle."
+      },
+      {
+        "id": 4,
+        "type": "mcq",
+        "question": "Pour former un contrat, il faut principalement :",
+        "options": ["Une offre et une acceptation", "Une signature manuscrite uniquement", "Une validation par un juge", "Un témoin obligatoire"],
+        "correct": "Une offre et une acceptation",
+        "explanation": "Un contrat naît de la rencontre d'une offre et d'une acceptation."
+      },
+      {
+        "id": 5,
+        "type": "truefalse",
+        "question": "Un contrat peut être conclu même sans document écrit.",
+        "correct": true,
+        "explanation": "Un contrat peut être verbal sauf exceptions légales."
+      },
+  
+      {
+        "id": 6,
+        "type": "mcq",
+        "question": "L’offre doit être :",
+        "options": ["Floue", "Précise et ferme", "Toujours orale", "Toujours payante"],
+        "correct": "Précise et ferme",
+        "explanation": "Une offre doit contenir les éléments essentiels."
+      },
+      {
+        "id": 7,
+        "type": "truefalse",
+        "question": "Une acceptation doit correspondre exactement à l’offre.",
+        "correct": true,
+        "explanation": "Sinon, il s’agit d’une nouvelle offre."
+      },
+      {
+        "id": 8,
+        "type": "mcq",
+        "question": "Les négociations doivent être menées :",
+        "options": ["De mauvaise foi", "Sans respecter la loi", "De bonne foi", "Uniquement par écrit"],
+        "correct": "De bonne foi",
+        "explanation": "La bonne foi s’impose dès les négociations."
+      },
+      {
+        "id": 9,
+        "type": "truefalse",
+        "question": "La rupture brutale des pourparlers peut être fautive.",
+        "correct": true,
+        "explanation": "Si elle est abusive, une responsabilité peut être engagée."
+      },
+      {
+        "id": 10,
+        "type": "mcq",
+        "question": "Le devoir d’information précontractuel concerne :",
+        "options": ["Toutes les informations possibles", "Les informations déterminantes", "Les opinions personnelles", "Les secrets professionnels"],
+        "correct": "Les informations déterminantes",
+        "explanation": "Le Code civil impose d’informer sur les éléments essentiels."
+      },
+  
+      {
+        "id": 11,
+        "type": "truefalse",
+        "question": "Le dol est un vice du consentement.",
+        "correct": true,
+        "explanation": "Avec l’erreur et la violence."
+      },
+      {
+        "id": 12,
+        "type": "mcq",
+        "question": "Un vice du consentement peut entraîner :",
+        "options": ["La validation automatique du contrat", "La nullité du contrat", "Une amende pénale", "La résiliation forcée"],
+        "correct": "La nullité du contrat",
+        "explanation": "Les vices rendent le consentement invalide."
+      },
+      {
+        "id": 13,
+        "type": "truefalse",
+        "question": "L’erreur sur la valeur est un motif valable de nullité.",
+        "correct": false,
+        "explanation": "L’erreur sur la valeur n’est pas un vice du consentement."
+      },
+      {
+        "id": 14,
+        "type": "mcq",
+        "question": "La violence correspond à :",
+        "options": ["Une menace ou contrainte", "Une erreur mathématique", "Une mauvaise rédaction", "Une clause illisible"],
+        "correct": "Une menace ou contrainte",
+        "explanation": "La violence peut être physique ou morale."
+      },
+      {
+        "id": 15,
+        "type": "truefalse",
+        "question": "La capacité juridique est nécessaire pour conclure un contrat.",
+        "correct": true,
+        "explanation": "Une personne incapable juridiquement ne peut contracter librement."
+      },
+  
+      {
+        "id": 16,
+        "type": "mcq",
+        "question": "Une personne morale existe légalement dès :",
+        "options": ["Sa création orale", "Son immatriculation au RCS", "La signature d’un associé", "L’ouverture d’un compte bancaire"],
+        "correct": "Son immatriculation au RCS",
+        "explanation": "L’immatriculation confère la personnalité juridique."
+      },
+      {
+        "id": 17,
+        "type": "truefalse",
+        "question": "Un représentant peut agir à la place d’une personne s’il en a le pouvoir.",
+        "correct": true,
+        "explanation": "La représentation suppose un pouvoir donné."
+      },
+      {
+        "id": 18,
+        "type": "mcq",
+        "question": "Un contrat d’adhésion est un contrat :",
+        "options": ["Négocié librement", "Avec des clauses imposées", "Sans prix", "Oral uniquement"],
+        "correct": "Avec des clauses imposées",
+        "explanation": "Une partie ne peut négocier les clauses."
+      },
+      {
+        "id": 19,
+        "type": "truefalse",
+        "question": "Les clauses claires ne doivent pas être interprétées.",
+        "correct": true,
+        "explanation": "Le juge ne peut interpréter ce qui est clair."
+      },
+      {
+        "id": 20,
+        "type": "mcq",
+        "question": "L’objectif de l’interprétation du contrat est de rechercher :",
+        "options": ["La volonté commune des parties", "La volonté d’un juge", "La volonté d’un tiers", "La solution la plus rapide"],
+        "correct": "La volonté commune des parties",
+        "explanation": "Principe fondamental de l’interprétation contractuelle."
+      },
+  
+      {
+        "id": 21,
+        "type": "truefalse",
+        "question": "La force majeure est un événement imprévisible et irrésistible.",
+        "correct": true,
+        "explanation": "Elle doit empêcher l’exécution du contrat."
+      },
+      {
+        "id": 22,
+        "type": "mcq",
+        "question": "En cas de force majeure :",
+        "options": ["Le contrat continue comme prévu", "L’obligation est suspendue ou éteinte", "Le débiteur paie une pénalité", "Le contrat devient nul automatiquement"],
+        "correct": "L’obligation est suspendue ou éteinte",
+        "explanation": "Selon qu’elle est temporaire ou définitive."
+      },
+      {
+        "id": 23,
+        "type": "truefalse",
+        "question": "L’imprévision permet de demander une renégociation.",
+        "correct": true,
+        "explanation": "Si l’exécution devient excessivement onéreuse."
+      },
+      {
+        "id": 24,
+        "type": "mcq",
+        "question": "La renégociation de l’imprévision :",
+        "options": ["Oblige l’autre partie à accepter", "N’oblige pas l’autre partie à accepter", "Annule automatiquement le contrat", "Suspend le contrat immédiatement"],
+        "correct": "N’oblige pas l’autre partie à accepter",
+        "explanation": "Le cocontractant peut refuser."
+      },
+      {
+        "id": 25,
+        "type": "truefalse",
+        "question": "En cas d’échec de la renégociation, un juge peut modifier le contrat.",
+        "correct": true,
+        "explanation": "L’article 1195 le permet."
+      },
+  
+      {
+        "id": 26,
+        "type": "mcq",
+        "question": "La responsabilité contractuelle sanctionne :",
+        "options": ["Une faute civile hors contrat", "L’inexécution d’une obligation contractuelle", "Un vol", "Une diffamation"],
+        "correct": "L’inexécution d’une obligation contractuelle",
+        "explanation": "Elle vise les obligations prévues par le contrat."
+      },
+      {
+        "id": 27,
+        "type": "truefalse",
+        "question": "Des dommages-intérêts peuvent s’ajouter à d’autres sanctions.",
+        "correct": true,
+        "explanation": "Les sanctions sont cumulables."
+      },
+      {
+        "id": 28,
+        "type": "mcq",
+        "question": "La mise en demeure sert à :",
+        "options": ["Informer le juge", "Mettre la partie en défaut", "Annuler le contrat", "Changer le prix"],
+        "correct": "Mettre la partie en défaut",
+        "explanation": "Elle constate l’inexécution."
+      },
+      {
+        "id": 29,
+        "type": "truefalse",
+        "question": "Une clause pénale fixe à l’avance une somme à payer en cas d’inexécution.",
+        "correct": true,
+        "explanation": "Elle évalue forfaitairement le préjudice."
+      },
+      {
+        "id": 30,
+        "type": "mcq",
+        "question": "Le juge peut réviser une clause pénale si elle est :",
+        "options": ["Claire", "Excessive", "Courte", "Signée électroniquement"],
+        "correct": "Excessive",
+        "explanation": "Le juge a un pouvoir de révision."
+      },
+  
+      {
+        "id": 31,
+        "type": "truefalse",
+        "question": "La résolution met fin au contrat.",
+        "correct": true,
+        "explanation": "Elle fait disparaître le contrat pour l’avenir."
+      },
+      {
+        "id": 32,
+        "type": "mcq",
+        "question": "Un contrat à durée déterminée prend fin :",
+        "options": ["Quand les parties le souhaitent", "À son terme", "Jamais", "Uniquement par décision du juge"],
+        "correct": "À son terme",
+        "explanation": "Le contrat s’arrête automatiquement."
+      },
+      {
+        "id": 33,
+        "type": "truefalse",
+        "question": "Un contrat à durée indéterminée peut être résilié unilatéralement.",
+        "correct": true,
+        "explanation": "Il suffit de respecter un préavis."
+      },
+      {
+        "id": 34,
+        "type": "mcq",
+        "question": "La tacite reconduction signifie :",
+        "options": ["Le contrat cesse", "Le contrat est automatiquement prolongé", "Le contrat devient gratuit", "Le contrat change de parties"],
+        "correct": "Le contrat est automatiquement prolongé",
+        "explanation": "Si les parties continuent à exécuter leurs obligations."
+      },
+      {
+        "id": 35,
+        "type": "truefalse",
+        "question": "Le renouvellement crée un nouveau contrat.",
+        "correct": true,
+        "explanation": "Contrairement à la prorogation."
+      },
+  
+      {
+        "id": 36,
+        "type": "mcq",
+        "question": "Une clause de confidentialité sert à :",
+        "options": ["Rendre le contrat secret", "Empêcher la divulgation d’informations", "Fixer le prix", "Créer une obligation de résultat"],
+        "correct": "Empêcher la divulgation d’informations",
+        "explanation": "Elle protège les informations sensibles."
+      },
+      {
+        "id": 37,
+        "type": "truefalse",
+        "question": "Un contrat peut être annulé en cas de dol.",
+        "correct": true,
+        "explanation": "Le dol est un vice du consentement."
+      },
+      {
+        "id": 38,
+        "type": "mcq",
+        "question": "L’erreur porte sur :",
+        "options": ["Une qualité essentielle", "Une simple opinion", "Un détail mineur", "La valeur uniquement"],
+        "correct": "Une qualité essentielle",
+        "explanation": "L’erreur doit être déterminante."
+      },
+      {
+        "id": 39,
+        "type": "truefalse",
+        "question": "Une menace juridique abusive peut constituer une violence.",
+        "correct": true,
+        "explanation": "Si la voie de droit est détournée."
+      },
+      {
+        "id": 40,
+        "type": "mcq",
+        "question": "Quel est l'objectif d'un contrat ?",
+        "options": ["Créer des obligations", "Créer un conflit", "Créer une sanction", "Créer une taxe"],
+        "correct": "Créer des obligations",
+        "explanation": "Le contrat crée, modifie ou éteint des obligations."
+      },
+  
+      {
+        "id": 41,
+        "type": "truefalse",
+        "question": "Une offre peut être retirée tant qu’elle n’a pas été acceptée.",
+        "correct": true,
+        "explanation": "L’offre n’engage que lorsqu'elle est acceptée."
+      },
+      {
+        "id": 42,
+        "type": "mcq",
+        "question": "Une clause d’interprétation sert à :",
+        "options": ["Aider à comprendre certaines notions", "Imposer une sanction", "Doubler le prix", "Rendre le contrat illisible"],
+        "correct": "Aider à comprendre certaines notions",
+        "explanation": "Elle clarifie certains termes."
+      },
+      {
+        "id": 43,
+        "type": "truefalse",
+        "question": "Les parties peuvent choisir de rendre certaines clauses prioritaires.",
+        "correct": true,
+        "explanation": "Grâce aux clauses de hiérarchie."
+      },
+      {
+        "id": 44,
+        "type": "mcq",
+        "question": "Une clause résolutoire prévoit :",
+        "options": ["Les conditions de résolution automatique", "Le prix du contrat", "La durée minimale", "Les obligations fiscales"],
+        "correct": "Les conditions de résolution automatique",
+        "explanation": "Elle précise les obligations dont l’inexécution entraîne la résolution."
+      },
+      {
+        "id": 45,
+        "type": "truefalse",
+        "question": "La bonne foi s’impose pendant l’exécution du contrat.",
+        "correct": true,
+        "explanation": "Art. 1104 du Code civil."
+      },
+  
+      {
+        "id": 46,
+        "type": "mcq",
+        "question": "En cas d’exécution imparfaite, le créancier peut :",
+        "options": ["Augmenter le prix", "Demander une réduction du prix", "Annuler la loi", "Changer de cocontractant sans accord"],
+        "correct": "Demander une réduction du prix",
+        "explanation": "Selon l’article 1223."
+      },
+      {
+        "id": 47,
+        "type": "truefalse",
+        "question": "Un préavis est obligatoire pour résilier un contrat à durée indéterminée.",
+        "correct": true,
+        "explanation": "Il doit être raisonnable ou contractuellement prévu."
+      },
+      {
+        "id": 48,
+        "type": "mcq",
+        "question": "La rupture brutale de relations commerciales établies est :",
+        "options": ["Libre", "Encadrée par le Code de commerce", "Une faute pénale", "Toujours impossible"],
+        "correct": "Encadrée par le Code de commerce",
+        "explanation": "Art. L. 442-1 impose un préavis suffisant."
+      },
+      {
+        "id": 49,
+        "type": "truefalse",
+        "question": "Une clause peut prévoir une durée automatique du contrat.",
+        "correct": true,
+        "explanation": "Par exemple via une clause de tacite reconduction."
+      },
+      {
+        "id": 50,
+        "type": "mcq",
+        "question": "La prorogation du contrat :",
+        "options": ["Crée un nouveau contrat", "Prolonge le contrat existant", "Annule le contrat", "Exige un juge"],
+        "correct": "Prolonge le contrat existant",
+        "explanation": "Elle prolonge la durée du même contrat."
+      }
+    ]
+  }  
