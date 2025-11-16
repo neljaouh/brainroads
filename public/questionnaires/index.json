@@ -5,15 +5,8 @@
     "subject": "Science",
     "difficulty": "Beginner",
     "description": "Fundamental concepts every beginner should know.",
-    "questionsCount": 12
-  },
-  {
-    "id": "introduction_to_biology",
-    "title": "Introduction to Biology II",
-    "subject": "Science",
-    "difficulty": "Beginner",
-    "description": "Fundamental concepts every beginner should know.",
-    "questionsCount": 12
+    "questionsCount": 12,
+    "languages": ["en"]
   },
   {
     "id": "advanced_algebra",
@@ -21,7 +14,8 @@
     "subject": "Mathematics",
     "difficulty": "Advanced",
     "description": "Challenge yourself with higher-level math questions.",
-    "questionsCount": 20
+    "questionsCount": 20,
+    "languages": ["en"]
   },
   {
     "id": "world_history_essentials",
@@ -29,7 +23,8 @@
     "subject": "History",
     "difficulty": "Intermediate",
     "description": "Test your knowledge of key historical events.",
-    "questionsCount": 15
+    "questionsCount": 15,
+    "languages": ["en"]
   },
   {
     "id": "french_grammar_basics",
@@ -37,7 +32,8 @@
     "subject": "Languages",
     "difficulty": "Beginner",
     "description": "Master the foundations of French grammar.",
-    "questionsCount": 18
+    "questionsCount": 18,
+    "languages": ["en", "fr"]
   },
   {
     "id": "cybersecurity_fundamentals",
@@ -45,7 +41,8 @@
     "subject": "Technology",
     "difficulty": "Intermediate",
     "description": "Learn about digital security threats and protections.",
-    "questionsCount": 22
+    "questionsCount": 22,
+    "languages": ["en"]
   },
   {
     "id": "human_anatomy_advanced",
@@ -53,7 +50,8 @@
     "subject": "Science",
     "difficulty": "Advanced",
     "description": "In-depth exploration of human body systems.",
-    "questionsCount": 25
+    "questionsCount": 25,
+    "languages": ["en"]
   },
   {
     "id": "physics_motion_forces",
@@ -61,7 +59,8 @@
     "subject": "Science",
     "difficulty": "Beginner",
     "description": "Core principles of Newtonian physics.",
-    "questionsCount": 14
+    "questionsCount": 14,
+    "languages": ["en"]
   },
   {
     "id": "modern_world_politics",
@@ -69,7 +68,8 @@
     "subject": "Politics",
     "difficulty": "Intermediate",
     "description": "Understand key geopolitical dynamics.",
-    "questionsCount": 17
+    "questionsCount": 17,
+    "languages": ["en"]
   },
   {
     "id": "software_engineering_patterns",
@@ -77,7 +77,8 @@
     "subject": "Technology",
     "difficulty": "Advanced",
     "description": "Essential design patterns for developers.",
-    "questionsCount": 19
+    "questionsCount": 19,
+    "languages": ["en"]
   },
   {
     "id": "contrats_law_1",
@@ -85,7 +86,8 @@
     "subject": "Droit",
     "difficulty": "Intermediate",
     "description": "Comprehensive questionnaire covering contract law including negotiation, validity, interpretation, non-performance, and contract termination.",
-    "questionsCount": 50
+    "questionsCount": 50,
+    "languages": ["fr"]
   },
   {
     "id": "contracts_law_2",
@@ -93,7 +95,8 @@
     "subject": "Droit",
     "difficulty": "Beginner",
     "description": "Fundamental concepts of contract law for beginners, covering basic principles, formation, and essential legal foundations.",
-    "questionsCount": 50
+    "questionsCount": 50,
+    "languages": ["fr"]
   }
 ]
 
