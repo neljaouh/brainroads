@@ -424,8 +424,11 @@ export default function QuestionnairePlayer() {
             </div>
             <div className="w-full bg-gray-800 rounded-full h-2">
               <div
-                className="bg-indigo-500 h-2 rounded-full transition-all"
-                style={{ width: `${progress}%` }}
+                className="h-2 rounded-full transition-all"
+                style={{ 
+                  width: `${progress}%`,
+                  background: 'linear-gradient(135deg, #3b82f6 0%, #8b5cf6 50%, #ec4899 100%)'
+                }}
               />
             </div>
           </div>
