@@ -1,0 +1,532 @@
+{
+  "id": "questionnaire-droit-contrats-complexe-1",
+  "title": "Droit des contrats",
+  "subject": "Droit des contrats (MBA Assas – Niveau avancé)",
+  "difficulty": "Advanced",
+  "tags": ["droit des contrats", "avancé", "théorie générale", "analyse juridique"],
+  "questions": [
+    {
+      "id": 1,
+      "type": "mcq",
+      "question": "Selon l’article 1112 du Code civil, quelle est la portée exacte de l'exigence de bonne foi dans la rupture des négociations précontractuelles ?",
+      "options": [
+        "Elle impose de conclure le contrat si les négociations sont avancées",
+        "Elle interdit toute rupture unilatérale, sauf clause contraire",
+        "Elle permet la rupture libre, mais sanctionne la rupture abusive limitée au préjudice subi",
+        "Elle transforme toute rupture en responsabilité contractuelle"
+      ],
+      "correct": "Elle permet la rupture libre, mais sanctionne la rupture abusive limitée au préjudice subi",
+      "explanation": "L’article 1112 consacre la liberté de rupture des pourparlers, mais exige la bonne foi, ce qui implique une responsabilité délictuelle en cas de rupture abusive, limitée cependant au seul préjudice subi du fait de la négociation, sans indemnisation de la perte d’une chance d’obtenir le contrat."
+    },
+    {
+      "id": 2,
+      "type": "truefalse",
+      "question": "La jurisprudence retient qu’un tiers contractant avec une partie déjà engagée dans des négociations peut être responsable même sans clause d’exclusivité préalable.",
+      "correct": false,
+      "explanation": "Selon la jurisprudence (Cass. com. 26 nov. 2003), un tiers contractant n’est pas fautif tant qu’il n’existe pas une exclusivité contractuelle qu’il connaissait ; la simple connaissance de négociations en cours ne suffit pas."
+    },
+    {
+      "id": 3,
+      "type": "mcq",
+      "question": "Dans la logique jurisprudentielle, un ajout unilatéral d’une condition substantielle à quelques jours de la signature envisagée peut être qualifié :",
+      "options": [
+        "D’exercice normal de la liberté contractuelle",
+        "De négociation loyale mais ferme",
+        "De rupture brutale et abusive des pourparlers",
+        "D’offre nouvelle imposant l’obligation de contracter"
+      ],
+      "correct": "De rupture brutale et abusive des pourparlers",
+      "explanation": "La jurisprudence (Com. 22 mars 2017) considère qu’une modification unilatérale, non motivée et tardive des conditions essentielles est constitutive d’une rupture abusive engageant la responsabilité délictuelle."
+    },
+    {
+      "id": 4,
+      "type": "mcq",
+      "question": "Dans une lettre d’intention (LOI), quelles clauses peuvent être juridiquement contraignantes indépendamment du caractère non-engageant de l’offre indicative ?",
+      "options": [
+        "Uniquement les clauses relatives au prix",
+        "Uniquement la clause de gouvernance",
+        "Les clauses d'exclusivité, de confidentialité et de juridiction",
+        "Aucune clause, car une LOI n’a jamais d’effet obligatoire"
+      ],
+      "correct": "Les clauses d'exclusivité, de confidentialité et de juridiction",
+      "explanation": "Une LOI n'emporte en principe pas obligation de conclure. En revanche, les engagements autonomes qu’elle contient (exclusivité, confidentialité, frais, droit applicable, juridiction) sont juridiquement obligatoires et relèvent du droit commun des contrats."
+    },
+    {
+      "id": 5,
+      "type": "text",
+      "question": "Expliquez précisément le critère du « lien direct et nécessaire » de l’article 1112-1 C. civ., et indiquez pourquoi il limite le devoir d’information.",
+      "correct": "Le lien direct et nécessaire signifie que l’information doit concerner directement le contenu du contrat ou la qualité de la partie. Ce critère empêche une extension excessive du devoir d’information à des données périphériques. Il impose un rapport immédiat avec l’objet contractuel, limitant ainsi l’obligation à ce qui influence réellement le consentement.",
+      "explanation": "Ce critère restreint la portée du devoir d’information pour éviter une obligation générale et illimitée de renseignement, en l’ancrant dans les éléments déterminants de l’engagement contractuel."
+    },
+
+    {
+      "id": 6,
+      "type": "mcq",
+      "question": "La jurisprudence récente distingue devoir d’information et réticence dolosive. Quelle conséquence majeure en découle ?",
+      "options": [
+        "La réticence dolosive n’existe que si l’information était légalement due",
+        "La réticence dolosive peut exister même si l’information n’était pas due au titre du devoir d’information",
+        "Dol et devoir d’information coïncident toujours",
+        "Une information non due ne peut jamais fonder une nullité"
+      ],
+      "correct": "La réticence dolosive peut exister même si l’information n’était pas due au titre du devoir d’information",
+      "explanation": "La jurisprudence (Cass. com. 18 sept. 2024) rappelle que le dol suppose une intention de tromper, ce qui rend excusable l’erreur provoquée même si l’information n’était pas légalement due."
+    },
+    {
+      "id": 7,
+      "type": "truefalse",
+      "question": "Selon l’article 1139 C. civ., l’erreur provoquée par dol reste excusable même lorsqu’elle porte sur la valeur.",
+      "correct": true,
+      "explanation": "Le Code civil prévoit expressément que l’erreur due au dol est toujours excusable et peut porter sur la valeur ou même sur un motif."
+    },
+    {
+      "id": 8,
+      "type": "mcq",
+      "question": "L’erreur sur la rentabilité peut être cause de nullité dans quel cas ?",
+      "options": [
+        "Lorsque le cocontractant a surestimé son propre budget",
+        "Lorsque la rentabilité est expressément entrée dans le champ contractuel",
+        "Lorsque la rentabilité semble logique mais non garantie",
+        "Jamais, car il s’agit d’une erreur sur un simple motif"
+      ],
+      "correct": "Lorsque la rentabilité est expressément entrée dans le champ contractuel",
+      "explanation": "Selon la jurisprudence, si la rentabilité est explicitement intégrée dans le contrat (prévisions, garanties), une erreur sur cette qualité substantielle peut entraîner la nullité."
+    },
+    {
+      "id": 9,
+      "type": "mcq",
+      "question": "L’abus d’état de dépendance suppose cumulativement :",
+      "options": [
+        "Un état de faiblesse psychologique seulement",
+        "Un état de dépendance, un abus et un avantage manifestement excessif",
+        "Une simple asymétrie d’information",
+        "Une mise en demeure préalable"
+      ],
+      "correct": "Un état de dépendance, un abus et un avantage manifestement excessif",
+      "explanation": "L’article 1143 exige ces trois conditions cumulatives pour caractériser la violence économique."
+    },
+    {
+      "id": 10,
+      "type": "text",
+      "question": "Expliquez pourquoi la nullité fondée sur la violence économique n’est pas systématiquement retenue en cas d’asymétrie économique.",
+      "correct": "Parce que l’asymétrie économique ne suffit pas : il faut une dépendance caractérisée, un abus intentionnel et l’obtention d’un avantage manifestement excessif. Le simple rapport de force commercial ne caractérise pas nécessairement une violence.",
+      "explanation": "La violence économique est une notion exigeante dont les conditions ont été resserrées lors de la loi de ratification de 2018."
+    },
+
+    {
+      "id": 11,
+      "type": "truefalse",
+      "question": "Un contrat conclu par une société en formation peut être nul si le signataire n’a pas précisé agir pour son compte.",
+      "correct": true,
+      "explanation": "La jurisprudence (Cass. com., 29 nov. 2023) exige une formulation claire ; à défaut, c’est la personne qui signe qui est engagée, et le contrat peut être considéré comme dépourvu de cause pour la société."
+    },
+    {
+      "id": 12,
+      "type": "mcq",
+      "question": "Quel est le fondement juridique permettant au juge de requalifier un contrat en une autre catégorie ?",
+      "options": [
+        "Art. 1104 C. civ.",
+        "Art. 1192 C. civ.",
+        "Art. 12 du Code de procédure civile",
+        "Art. 1112-1 C. civ."
+      ],
+      "correct": "Art. 12 du Code de procédure civile",
+      "explanation": "Cet article oblige le juge à restituer aux actes leur véritable qualification, indépendamment de la volonté exprimée par les parties."
+    },
+    {
+      "id": 13,
+      "type": "mcq",
+      "question": "La distinction entre contrat d’adhésion et contrat de gré à gré repose principalement sur :",
+      "options": [
+        "Le niveau de protection souhaité par les parties",
+        "La négociabilité réelle et non théorique des clauses",
+        "La présence d’un formalisme écrit",
+        "La durée du contrat"
+      ],
+      "correct": "La négociabilité réelle et non théorique des clauses",
+      "explanation": "Le critère essentiel posé par l’article 1110 est l’existence d’un ensemble de clauses non négociables imposées par une partie."
+    },
+    {
+      "id": 14,
+      "type": "truefalse",
+      "question": "Une clause fixant qu’un document contractuel est prioritaire sur un autre permet d’éviter l’application de la directive d’interprétation globale de l’article 1189.",
+      "correct": false,
+      "explanation": "Même en présence d’une clause de hiérarchie, le juge doit interpréter l’ensemble cohérent du contrat ; la clause guide l’analyse, mais ne supprime pas l’art. 1189."
+    },
+    {
+      "id": 15,
+      "type": "mcq",
+      "question": "L’interdiction d’interpréter une clause claire (art. 1192) signifie :",
+      "options": [
+        "Qu’aucune interprétation n’est jamais possible",
+        "Que le juge ne peut modifier le sens clair d’une clause même si le contexte suggère le contraire",
+        "Que les clauses doivent être adaptées en fonction de l’équité",
+        "Que les parties peuvent imposer leur propre interprétation"
+      ],
+      "correct": "Que le juge ne peut modifier le sens clair d’une clause même si le contexte suggère le contraire",
+      "explanation": "L’interdiction de dénaturation est un principe strict : le juge ne doit pas substituer sa volonté à celle clairement exprimée par les parties."
+    },
+
+    {
+      "id": 16,
+      "type": "mcq",
+      "question": "Pourquoi la clause d'intégralité (ou 'four corners clause') est-elle parfois jugée peu efficace en droit français ?",
+      "options": [
+        "Parce que les parties ne peuvent jamais exclure les éléments des négociations",
+        "Parce que l'interprétation française reste centrée sur la volonté réelle et que la clause ne suffit pas toujours à écarter les éléments extrinsèques",
+        "Parce que le juge ne lit jamais les clauses de ce type",
+        "Parce qu’elle est interdite par le Code civil"
+      ],
+      "correct": "Parce que l'interprétation française reste centrée sur la volonté réelle et que la clause ne suffit pas toujours à écarter les éléments extrinsèques",
+      "explanation": "La tradition civiliste recherche la volonté réelle, ce qui peut conduire le juge à tenir compte d’éléments extérieurs malgré la clause."
+    },
+    {
+      "id": 17,
+      "type": "truefalse",
+      "question": "Une clause de force majeure peut supprimer entièrement l’exigence d’imprévisibilité.",
+      "correct": true,
+      "explanation": "Contractuellement, la définition peut être aménagée : une liste d’événements automatiques peut écarter l’imprévisibilité."
+    },
+    {
+      "id": 18,
+      "type": "mcq",
+      "question": "Quel est le principal risque d’une liste d’événements de force majeure considérée comme 'automatique' ?",
+      "options": [
+        "Elle rend la clause trop vague pour être interprétée",
+        "Elle peut conduire à qualifier comme force majeure un événement qui ne répond pas aux critères légaux",
+        "Elle impose une pénalité au débiteur",
+        "Elle annule toute possibilité de résolution"
+      ],
+      "correct": "Elle peut conduire à qualifier comme force majeure un événement qui ne répond pas aux critères légaux",
+      "explanation": "Une clause cumulative et automatique peut aboutir à élargir excessivement la notion, comme dans les décisions liées au Covid."
+    },
+    {
+      "id": 19,
+      "type": "truefalse",
+      "question": "La force majeure peut être invoquée par le créancier si le contrat le prévoit expressément.",
+      "correct": true,
+      "explanation": "Certaines clauses étendent la force majeure au créancier, bien que le droit commun ne le prévoie pas."
+    },
+    {
+      "id": 20,
+      "type": "mcq",
+      "question": "Dans le cadre de l’article 1218, la condition d'irrésistibilité doit s'apprécier :",
+      "options": [
+        "Au regard de l'événement lui-même",
+        "Au regard des effets de l’événement sur l’exécution",
+        "Au regard de la volonté du débiteur",
+        "Au regard des clauses d’un autre contrat"
+      ],
+      "correct": "Au regard des effets de l’événement sur l’exécution",
+      "explanation": "Depuis la réforme, l’analyse porte sur les effets et non sur l'événement en tant que tel."
+    },
+
+    {
+      "id": 21,
+      "type": "mcq",
+      "question": "Quelle est une conséquence juridique majeure de l’imprévision (art. 1195) si les parties échouent à renégocier et ne s’entendent pas pour saisir le juge ?",
+      "options": [
+        "Le contrat est automatiquement résilié",
+        "La partie lésée peut modifier unilatéralement le contrat",
+        "Le juge peut être saisi par une seule partie et réviser ou résilier le contrat",
+        "Le prix est automatiquement adapté par l’effet de la loi"
+      ],
+      "correct": "Le juge peut être saisi par une seule partie et réviser ou résilier le contrat",
+      "explanation": "En l’absence d’accord, une partie peut saisir seule le juge pour obtenir une adaptation ou une fin du contrat."
+    },
+    {
+      "id": 22,
+      "type": "truefalse",
+      "question": "Une clause peut exclure l’application de l’article 1195 C. civ. relatif à l’imprévision.",
+      "correct": true,
+      "explanation": "Le régime est supplétif ; les parties peuvent y renoncer contractuellement, sauf déséquilibre significatif éventuel."
+    },
+    {
+      "id": 23,
+      "type": "mcq",
+      "question": "Dans quel cas l’exécution forcée en nature peut-elle être refusée (art. 1221) ?",
+      "options": [
+        "Si l’inexécution est volontaire",
+        "Si l’exécution est matériellement possible mais plus coûteuse",
+        "S’il existe une disproportion manifeste entre le coût de l’exécution et l’intérêt pour le créancier",
+        "Si le créancier l’exige trop vite"
+      ],
+      "correct": "S’il existe une disproportion manifeste entre le coût de l’exécution et l’intérêt pour le créancier",
+      "explanation": "La disproportion manifeste est un motif légal d’exclusion de l’exécution forcée."
+    },
+    {
+      "id": 24,
+      "type": "truefalse",
+      "question": "La mise en demeure est toujours nécessaire pour engager la responsabilité contractuelle.",
+      "correct": false,
+      "explanation": "Elle est requise sauf en cas d’inexécution définitive ou lorsque la loi ou le contrat en dispense."
+    },
+    {
+      "id": 25,
+      "type": "text",
+      "question": "Expliquez pourquoi l’exception d’inexécution anticipée (art. 1220) peut être risquée pour le créancier qui l’invoque.",
+      "correct": "Parce que si le juge estime que l’inexécution future n’était pas manifeste ou que la gravité n’était pas suffisante, le créancier devient lui-même débiteur d’une inexécution fautive. Il prend un risque de renversement de responsabilité.",
+      "explanation": "Cette sanction unilatérale doit être maniée avec prudence car elle repose sur une anticipation qui peut s’avérer erronée."
+    },
+
+    {
+      "id": 26,
+      "type": "mcq",
+      "question": "La résolution par notification unilatérale (art. 1226) requiert :",
+      "options": [
+        "Une décision de justice préalable",
+        "Une mise en demeure mentionnant expressément la possibilité de résolution",
+        "L’accord du débiteur",
+        "Une absence de faute"
+      ],
+      "correct": "Une mise en demeure mentionnant expressément la possibilité de résolution",
+      "explanation": "C’est une condition impérative du mécanisme, sauf urgence ou vanité démontrée."
+    },
+    {
+      "id": 27,
+      "type": "truefalse",
+      "question": "La clause résolutoire permet la résolution automatique sans condition de gravité.",
+      "correct": true,
+      "explanation": "La clause résolutoire ne requiert aucune gravité particulière : toute inexécution de l’obligation visée la déclenche."
+    },
+    {
+      "id": 28,
+      "type": "mcq",
+      "question": "La jurisprudence Chronopost et Faurecia a conduit à l’adoption de quel principe dans le Code civil ?",
+      "options": [
+        "L’interdiction des clauses limitatives de responsabilité",
+        "La nullité automatique des contrats commerciaux déséquilibrés",
+        "L’interdiction des clauses vidant de sa substance l’obligation essentielle",
+        "L’obligation de préciser les dommages indirects"
+      ],
+      "correct": "L’interdiction des clauses vidant de sa substance l’obligation essentielle",
+      "explanation": "Ce principe est aujourd’hui consacré à l’article 1170 C. civ."
+    },
+    {
+      "id": 29,
+      "type": "truefalse",
+      "question": "La sanction d’une clause limitative de responsabilité affectant une obligation essentielle est la nullité de la clause.",
+      "correct": true,
+      "explanation": "L’article 1170 prévoit la clause réputée non écrite."
+    },
+    {
+      "id": 30,
+      "type": "mcq",
+      "question": "La clause pénale peut être révisée par le juge (art. 1231-5). Cette révision :",
+      "options": [
+        "Peut augmenter ou diminuer la pénalité",
+        "Ne peut que la diminuer",
+        "Ne peut que l’augmenter",
+        "Est liée à la bonne foi du débiteur uniquement"
+      ],
+      "correct": "Peut augmenter ou diminuer la pénalité",
+      "explanation": "Le juge peut intervenir dans les deux sens, conformément au texte."
+    },
+
+    {
+      "id": 31,
+      "type": "mcq",
+      "question": "L’article 1212 C. civ. sur les contrats à durée déterminée exclut principalement :",
+      "options": [
+        "La prorogation",
+        "La tacite reconduction",
+        "L’obligation de poursuivre le contrat jusqu’au terme",
+        "L’exigence de renouvellement"
+      ],
+      "correct": "L’exigence de renouvellement",
+      "explanation": "Le Code civil précise qu’aucune partie ne peut exiger le renouvellement d’un CDD."
+    },
+    {
+      "id": 32,
+      "type": "truefalse",
+      "question": "Un engagement perpétuel est licite si les parties l'ont voulu et qu'il concerne des prestations continues.",
+      "correct": false,
+      "explanation": "L’article 1210 interdit les engagements perpétuels, sauf exceptions légales comme la société."
+    },
+    {
+      "id": 33,
+      "type": "mcq",
+      "question": "La durée excessive d’un pacte d'associés est jugée :",
+      "options": [
+        "Toujours illicite",
+        "Licite si elle correspond à la durée de la société",
+        "Illicite si elle dépasse 10 ans",
+        "Licite uniquement si reconductible annuellement"
+      ],
+      "correct": "Licite si elle correspond à la durée de la société",
+      "explanation": "La jurisprudence (Cass. civ. 1re, 25 janv. 2023) admet cette solution."
+    },
+    {
+      "id": 34,
+      "type": "mcq",
+      "question": "La rupture brutale de relations commerciales établies (L. 442-1, III C. com.) impose :",
+      "options": [
+        "Une faute lourde",
+        "Un préavis écrit tenant compte de la durée et des usages",
+        "Une indemnité automatique",
+        "La preuve d’une intention de nuire"
+      ],
+      "correct": "Un préavis écrit tenant compte de la durée et des usages",
+      "explanation": "L’absence de préavis suffisant engage la responsabilité."
+    },
+    {
+      "id": 35,
+      "type": "truefalse",
+      "question": "Un préavis d’au moins 18 mois protège automatiquement l’auteur de la rupture contre toute action en responsabilité.",
+      "correct": true,
+      "explanation": "La loi prévoit qu’au-delà de 18 mois, la responsabilité ne peut être engagée pour durée insuffisante."
+    },
+
+    {
+      "id": 36,
+      "type": "text",
+      "question": "Expliquez pourquoi la tacite reconduction produit les mêmes effets que le renouvellement (art. 1215), alors même qu'elle résulte d’un comportement et non d’un accord explicite.",
+      "correct": "Parce que la poursuite de l’exécution manifeste la volonté implicite des parties de continuer la relation. Le législateur assimile cette situation à un renouvellement formel afin de garantir la continuité contractuelle et d'offrir un régime juridique clair : création d’un nouveau contrat à durée indéterminée.",
+      "explanation": "La cohérence de la théorie contractuelle impose de considérer l’exécution continue comme un consentement implicite à un nouveau contrat."
+    },
+
+    {
+      "id": 37,
+      "type": "mcq",
+      "question": "La prorogation (art. 1213) a pour effet :",
+      "options": [
+        "De créer un nouveau contrat",
+        "De prolonger le contrat existant avant son expiration",
+        "De modifier automatiquement les clauses essentielles",
+        "D’exiger une nouvelle négociation"
+      ],
+      "correct": "De prolonger le contrat existant avant son expiration",
+      "explanation": "Elle maintient le même contrat au-delà de son terme initial."
+    },
+    {
+      "id": 38,
+      "type": "truefalse",
+      "question": "Un renouvellement tacite prévu contractuellement peut fixer une nouvelle durée identique à la première.",
+      "correct": true,
+      "explanation": "Les clauses contractuelles peuvent aménager librement la durée de reconduction."
+    },
+    {
+      "id": 39,
+      "type": "mcq",
+      "question": "La clause de résiliation pour convenance permet :",
+      "options": [
+        "Une résiliation unilatérale sans motif mais selon conditions prévues",
+        "Une résiliation uniquement en cas de faute",
+        "Une résiliation uniquement judiciaire",
+        "Une exonération automatique de toute indemnité"
+      ],
+      "correct": "Une résiliation unilatérale sans motif mais selon conditions prévues",
+      "explanation": "Elle requiert une rédaction précise, sans quoi elle risque d'être jugée abusive."
+    },
+    {
+      "id": 40,
+      "type": "truefalse",
+      "question": "Une clause de résiliation pour événements exceptionnels peut permettre une résiliation sans indemnité même en dehors d’un cas de force majeure.",
+      "correct": true,
+      "explanation": "Si contractuellement prévu, elle peut étendre les cas de résiliation unilatérale."
+    },
+
+    {
+      "id": 41,
+      "type": "mcq",
+      "question": "La hiérarchie contractuelle (clause de priorité) sert à :",
+      "options": [
+        "Imposer l’interprétation à un arbitre",
+        "Déterminer quel document prévaut en cas de contradiction",
+        "Éviter tout litige judiciaire",
+        "Supprimer la nécessité d’interprétation"
+      ],
+      "correct": "Déterminer quel document prévaut en cas de contradiction",
+      "explanation": "Elle clarifie la structure contractuelle."
+    },
+    {
+      "id": 42,
+      "type": "truefalse",
+      "question": "Une clause linguistique peut imposer que seule la version française fasse foi en cas de divergence.",
+      "correct": true,
+      "explanation": "Ces clauses sont fréquentes dans les contrats internationaux."
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "question": "Quel est le risque majeur d’une clause de MAC mal rédigée ?",
+      "options": [
+        "Elle est automatiquement réputée non écrite",
+        "Elle peut être interprétée comme une clause de résiliation abusive",
+        "Elle peut produire les effets d’une condition potestative",
+        "Elle rend le contrat à durée déterminée"
+      ],
+      "correct": "Elle peut produire les effets d’une condition potestative",
+      "explanation": "Si elle dépend uniquement de l’appréciation d’une partie, elle peut être inefficace."
+    },
+    {
+      "id": 44,
+      "type": "truefalse",
+      "question": "Un créancier peut toujours obtenir l’exécution forcée en nature si l’obligation n’est pas impossible.",
+      "correct": false,
+      "explanation": "La disproportion manifeste permet de refuser l’exécution forcée."
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "question": "Pourquoi la réduction du prix unilatérale (art. 1223) est-elle particulièrement délicate à mettre en œuvre ?",
+      "options": [
+        "Parce qu’elle nécessite un jugement préalable",
+        "Parce que le débiteur doit approuver la réduction avant qu’elle ne produise effet",
+        "Parce qu'elle peut transformer le créancier en débiteur fautif si l’imperfection n’est pas démontrée",
+        "Parce qu’elle impose un audit externe"
+      ],
+      "correct": "Parce qu'elle peut transformer le créancier en débiteur fautif si l’imperfection n’est pas démontrée",
+      "explanation": "Une mauvaise utilisation expose le créancier à une requalification en inexécution fautive."
+    },
+
+    {
+      "id": 46,
+      "type": "text",
+      "question": "Expliquez la différence fondamentale entre inexécution fautive et difficultés d’exécution non fautives.",
+      "correct": "L’inexécution fautive résulte d’un manquement imputable au débiteur, ouvrant droit à sanctions. Les difficultés non fautives résultent d’événements extérieurs (force majeure ou imprévision) rendant l’exécution impossible ou excessivement onéreuse sans faute du débiteur.",
+      "explanation": "La distinction conditionne le régime applicable : sanctions unilatérales ou mécanismes adaptatifs."
+    },
+
+    {
+      "id": 47,
+      "type": "mcq",
+      "question": "Dans une clause de durée complexe prévoyant plusieurs extensions possibles, quel est le principal point d’attention juridique ?",
+      "options": [
+        "La cohérence avec les clauses financières",
+        "Le risque de requalification en engagement perpétuel",
+        "La conformité au droit fiscal",
+        "L’obligation de signature manuelle"
+      ],
+      "correct": "Le risque de requalification en engagement perpétuel",
+      "explanation": "Des durées cumulatives trop longues peuvent contourner l’interdiction des engagements perpétuels."
+    },
+    {
+      "id": 48,
+      "type": "truefalse",
+      "question": "Une durée contractuelle de 90 ans est licite si elle concerne un pacte d’associés aligné sur la durée de la société.",
+      "correct": true,
+      "explanation": "La jurisprudence l’admet conformément à l’article 1838 C. civ."
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "question": "Dans une relation commerciale établie, une baisse drastique du volume des commandes peut constituer :",
+      "options": [
+        "Une impossibilité d’exécution",
+        "Une rupture partielle engageant la responsabilité",
+        "Une simple renégociation",
+        "Une inexécution non fautive"
+      ],
+      "correct": "Une rupture partielle engageant la responsabilité",
+      "explanation": "La loi inclut la réduction substantielle comme rupture partielle brutale."
+    },
+    {
+      "id": 50,
+      "type": "text",
+      "question": "Expliquez en quoi la logique du droit des contrats impose que les sanctions de l’article 1217 soient cumulables, sauf incompatibilité.",
+      "correct": "Parce que chaque sanction répond à un objectif distinct : l’exécution forcée vise l’exécution, la résolution vise la fin du contrat, les dommages-intérêts la réparation. Ces fonctions différentes permettent un cumul efficace pour restaurer l’équilibre contractuel, sauf incompatibilité matérielle entre sanctions.",
+      "explanation": "L’approche fonctionnelle du droit des obligations justifie la combinatoire des sanctions afin d’assurer une protection complète du créancier."
+    }
+  ]
+}

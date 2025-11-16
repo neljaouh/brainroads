@@ -97,6 +97,15 @@
     "description": "Fundamental concepts of contract law for beginners, covering basic principles, formation, and essential legal foundations.",
     "questionsCount": 50,
     "languages": ["fr"]
+  },
+  {
+    "id": "contracts_law_3",
+    "title": "Droit des contrats",
+    "subject": "Droit",
+    "difficulty": "Advanced",
+    "description": "Advanced questionnaire covering complex contract law concepts including negotiation, validity, interpretation, non-performance, and contract termination.",
+    "questionsCount": 50,
+    "languages": ["fr"]
   }
 ]
 
